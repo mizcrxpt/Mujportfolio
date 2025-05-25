@@ -1,0 +1,7 @@
+:root {
+  font-family: Poppins, Arial;
+  background-color: rgb(21, 22, 26);
+  user-select: none;
+  -webkit-user-select: none;
+  overflow: hidden;
+}

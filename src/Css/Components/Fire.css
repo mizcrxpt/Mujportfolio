@@ -1,0 +1,28 @@
+.FloatingDiv {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+  
+.Fire {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  bottom: -10px;
+  background-color: #fd7e14;
+  animation: UpYouCunt 5s linear forwards;
+  border-radius: 50%;
+  filter: blur(4px);
+}
+
+@keyframes UpYouCunt {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  } 
+  100% {
+    transform: translateY(-110vh);
+    opacity: 0;
+  }
+}
